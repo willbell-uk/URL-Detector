@@ -1,2 +1,4 @@
 buildCmd: 'gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
+cbmcArguments:
+    disable-testsuite-minimization: true
