@@ -1,2 +1,4 @@
 buildCmd: 'gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
+cbmcArguments:
+  java-test-input-factory: greedy
